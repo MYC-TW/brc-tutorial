@@ -5,7 +5,7 @@ setwd('~/Box Sync/brc-tutorial/')
 # If not installed, run
 # install.packages('ggplot2')
 library(ggplot2)
-
+library(dada2)
 
 # Read in data 
 data_in <- read.csv("billionton_state_download.2015.csv", header=TRUE)
